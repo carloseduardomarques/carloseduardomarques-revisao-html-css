@@ -1,23 +1,36 @@
-
 body {
-    
-    background-color:white;    
+  font-family: Consolas;
 }
 
-.header {
-  background-color: blue;
-  color:black;
+.cabecalho-e-rodape {
+  background-color: navy;
+  color: white;
+}
+
+.cabecalho-e-rodape h2 {
   text-align: center;
 }
 
-.footer {
-  background-color: blue;
-  color:black;
-  text-align: center;
+ul {
+  list-style-type: none;
 }
 
-.h1 {
-    text-align: center;
-    width: 1300px;
-    height: 400px;
+.livro {
+  /* border: 1px solid red; */
+  display: inline-block;
+  position: relative;
+  height: 160px;
+  width: 250px;
+  margin-bottom: 10px;
 }
+
+.livro img {
+  position: absolute;
+  left: 10px;
+}
+
+.livro ul {
+  position: absolute;
+  left: 123px;
+}
+
